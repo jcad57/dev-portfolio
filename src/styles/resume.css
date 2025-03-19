@@ -1,0 +1,40 @@
+.resume__section-header {
+    margin-bottom: 0.5rem;
+}
+
+.resume__skill-title {
+    font-weight: bold;
+}
+
+.profexp__header-text {
+    margin-bottom: 0.5rem;
+}
+
+.profexp__job-item {
+    margin-left: 0.25rem;
+}
+
+.profexp__job-item-title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    /* margin-left: 0.25rem; */
+}
+
+.profexp__employer-text {
+    font-size: 0.8rem;
+}
+
+.profexp__job-description {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.profexp__job-description > li {
+    margin-left: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}

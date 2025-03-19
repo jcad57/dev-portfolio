@@ -1,6 +1,6 @@
 :root {
     /* Colorful Theme */
-    --colorful-header-gradient: linear-gradient(
+    --header-gradient: linear-gradient(
         to right bottom,
         #b534e0,
         #a25cee,
@@ -16,7 +16,31 @@
         #4efff4
     );
 
-    --colorful-background: #13113d;
-    --colorful-header-text-color: rgb(253, 131, 133);
-    --colorful-linebreak-color: rgba(253, 131, 133, 0.5);
+    --background-color: #13113d;
+    --header-text-color: rgb(255, 154, 129);
+    --linebreak-color: rgba(253, 131, 133, 0.5);
+
+    /* Dark Theme */
+    --header-gradient-dark: linear-gradient(
+        to right,
+        #ffffc6,
+        #cff8c7,
+        #9fefd5,
+        #7be1e6,
+        #71cff1,
+        #70b5df,
+        #709cc8,
+        #7083af,
+        #576284,
+        #3d445c,
+        #252737,
+        #0b0b16
+    );
+
+    --background-color-dark: #0b0b16;
+    --header-text-color-dark: rgb(255, 255, 198);
+    --linebreak-color-dark: rgba(255, 255, 198, 0.5);
+
+    /* Other */
+    --menu-background-color: white;
 }
