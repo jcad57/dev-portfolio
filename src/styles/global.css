@@ -127,3 +127,7 @@ section {
 .rotate {
     transform: rotate(180deg);
 }
+
+.sub-text {
+    font-size: 0.8rem;
+}

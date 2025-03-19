@@ -1,15 +1,11 @@
-.header__wrapper {
-}
-
 .header__menu-icon {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     margin-bottom: 1rem;
 }
 
 .header__info {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
 }
 
@@ -24,37 +20,11 @@
 }
 
 .header__contact {
-    font-size: 0.8rem;
     margin-top: 0.5rem;
     font-style: italic;
+    text-align: right;
 }
 
 .header__contact-icon {
     margin-left: 0.5rem;
-}
-
-.mobile-menu__wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--menu-background-color);
-
-    /* display: grid; */
-    place-items: center;
-
-    /* justify-items: center; */
-}
-.mobile-menu__items > a {
-    display: block;
-    color: black;
-}
-
-.mobile-menu__close-btn {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 1.5rem;
-    cursor: pointer;
 }

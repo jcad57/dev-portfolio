@@ -15,29 +15,30 @@
     <body>
         <!-- MOBILE MENU -->
         <div class="mobile-menu__wrapper hidden">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="48"
+                height="48"
+                fill="white"
+                class="mobile-menu__close-btn">
+                <line x1="6" y1="6" x2="18" y2="18" stroke="white" stroke-width="2" stroke-linecap="round" />
+                <line x1="18" y1="6" x2="6" y2="18" stroke="white" stroke-width="2" stroke-linecap="round" />
+            </svg>
             <div class="mobile-menu__items">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="48"
-                    height="48"
-                    fill="black"
-                    class="mobile-menu__close-btn">
-                    <line x1="6" y1="6" x2="18" y2="18" stroke="black" stroke-width="2" stroke-linecap="round" />
-                    <line x1="18" y1="6" x2="6" y2="18" stroke="black" stroke-width="2" stroke-linecap="round" />
-                </svg>
-                <a>Resume</a>
-                <a>Projects</a>
+                <a href="/index.html">Resume</a>
+                <a href="/projects.html">Projects</a>
+                <!-- <div>
+                    <button id="colorful-btn">colorful</button>
+                    <button id="dark-btn">dark</button>
+                </div> -->
             </div>
         </div>
         <!-- End Mobile Menu -->
+
         <div id="app">
             <header class="header__wrapper">
                 <div class="header__menu-icon">
-                    <div>
-                        <button id="colorful-btn">colorful</button>
-                        <button id="dark-btn">dark</button>
-                    </div>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
@@ -55,7 +56,7 @@
                     <div class="header__info-text">
                         <h1>JON DEICHMANN</h1>
                         <p>Front-End / React Developer</p>
-                        <div class="header__contact">
+                        <div class="header__contact sub-text">
                             <p>
                                 Austin, TX
                                 <span class="header__contact-icon">
