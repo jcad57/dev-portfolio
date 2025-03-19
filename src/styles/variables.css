@@ -1,0 +1,22 @@
+:root {
+    /* Colorful Theme */
+    --colorful-header-gradient: linear-gradient(
+        to right bottom,
+        #b534e0,
+        #a25cee,
+        #9176f5,
+        #878bf7,
+        #859df4,
+        #79acfa,
+        #73b9fd,
+        #75c6fd,
+        #5ad6ff,
+        #41e4ff,
+        #38f2ff,
+        #4efff4
+    );
+
+    --colorful-background: #13113d;
+    --colorful-header-text-color: rgb(253, 131, 133);
+    --colorful-linebreak-color: rgba(253, 131, 133, 0.5);
+}
