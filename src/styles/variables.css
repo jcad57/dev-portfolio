@@ -17,6 +17,7 @@
     );
 
     --background-color: #13113d;
+    --footer-color: rgb(10, 9, 36);
     --header-text-color: rgb(255, 154, 129);
     --linebreak-color: rgba(253, 131, 133, 0.5);
 
@@ -38,6 +39,7 @@
     );
 
     --background-color-dark: #0b0b16;
+    --footer-color-dark: rgb(3, 3, 5);
     --header-text-color-dark: rgb(255, 255, 198);
     --linebreak-color-dark: rgba(255, 255, 198, 0.5);
 

@@ -108,20 +108,15 @@ section {
     margin-bottom: 2rem;
 }
 
-/* Anything that has been anchored to should have extra scroll margin */
-:target {
-    scroll-margin-block: 5ex;
-}
-
 #app {
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .dark-mode {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .rotate {
@@ -130,4 +125,17 @@ section {
 
 .sub-text {
     font-size: 0.8rem;
+}
+
+footer {
+    text-align: center;
+    padding-block: 2rem;
+    background-color: var(--footer-color);
+    font-size: 0.8rem;
+}
+
+@media (min-width: 800px) {
+    #app {
+        padding-inline: 6rem;
+    }
 }

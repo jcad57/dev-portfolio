@@ -13,7 +13,7 @@ const aboutMeHeader = document.querySelector(".about__header");
 const aboutMeExpandIcon = document.querySelector(".about__expand-icon");
 const aboutMeText = document.querySelector(".about__text");
 
-const professionalExperienceItems = document.querySelectorAll(".profexp__job-item-wrapper");
+const professionalExperienceItems = document.querySelectorAll(".profexp__job-title");
 const professionalExperienceDescriptions = document.querySelectorAll(".profexp__job-description");
 const professionalExperienceDescriptionIcons = document.querySelectorAll(".profexp__expand-icon");
 
@@ -41,6 +41,7 @@ darkBtn?.addEventListener("click", () => {
     root?.style.setProperty("--background-color", "var(--background-color-dark)");
     root?.style.setProperty("--header-text-color", "var(--header-text-color-dark)");
     root?.style.setProperty("--linebreak-color", "var(--linebreak-color-dark)");
+    root?.style.setProperty("--footer-color", "var(--footer-color-dark)");
 });
 
 /////////////////////////////////////////

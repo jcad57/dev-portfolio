@@ -1,22 +1,28 @@
 .projects__header {
     text-align: center;
-    padding-block: 2rem;
-    margin-inline: 3rem;
-    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    margin-inline: 2rem;
+    /* margin-bottom: 4rem; */
     border-bottom: 1px solid var(--linebreak-color);
 }
 
 .projects__wrapper {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     justify-content: center;
 }
+
+.projects__page-title {
+    margin-block: 2rem;
+    text-align: center;
+}
+
 .projects__project {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-block: 2rem;
+    margin-block: 1rem;
     margin-inline: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 16px;
@@ -36,6 +42,22 @@
 
 .projects__project-details {
     transform: translateY(-10%);
+}
+
+.projects__tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 0.5rem;
+    margin-block: 1rem;
+}
+
+.projects__skill-tag {
+    border: 1px solid var(--linebreak-color);
+    border-radius: 8px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    color: var(--linebreak-color);
 }
 
 .projects__description {

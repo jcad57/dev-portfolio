@@ -11,6 +11,7 @@
             rel="stylesheet" />
         <title>Jon Deichmann - Projects</title>
     </head>
+
     <body>
         <!-- MOBILE MENU -->
         <div class="mobile-menu__wrapper hidden">
@@ -27,80 +28,131 @@
             <div class="mobile-menu__items">
                 <a href="/index.html">Resume</a>
                 <a href="/projects.html">Projects</a>
-                <!-- <div>
+                <div>
                     <button id="colorful-btn">colorful</button>
                     <button id="dark-btn">dark</button>
-                </div> -->
+                </div>
             </div>
         </div>
         <!-- End Mobile Menu -->
-        <header>
-            <div class="header__menu-icon">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="48"
-                    height="48"
-                    fill="white"
-                    class="menu-icon">
-                    <rect x="3" y="6" width="18" height="2" rx="1" />
-                    <rect x="3" y="11" width="18" height="2" rx="1" />
-                    <rect x="3" y="16" width="18" height="2" rx="1" />
-                </svg>
-            </div>
-            <div class="projects__header">
-                <h2>Jon Deichmann</h2>
-                <p>Front-End / React Developer</p>
-            </div>
-        </header>
-        <main>
-            <div class="projects__wrapper">
-                <div class="projects__project">
-                    <img class="projects__project-thumbnail" src="./src/assets/images/hh-icon-logo.png" />
-                    <div class="projects__project-details">
-                        <h3>Hell's Heroes Festival</h3>
-                        <span class="sub-text">React (Web/Native) - TypeScript - Firebase - iOS </span>
-                        <div class="projects__description">
-                            <p>
-                                A music festival app that allows users to create and manage their schedule, stay up to
-                                date with festival news, find top local spots to explore, and unlock exclusive deals
-                                paired with a React web application that allows festival managers to manage the newsfeed
-                                remotely.
-                            </p>
-                            <p>
-                                <strong><a href="https://shorturl.at/44y8E">APP STORE LINK</a></strong> <br /><strong
-                                    ><a href="https://github.com/jcad57/hells-heroes-dashboard"
-                                        >DASHBOARD REPO LINK</a
-                                    ></strong
-                                >
-                            </p>
+        <div id="app">
+            <header>
+                <div class="header__menu-icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width="48"
+                        height="48"
+                        fill="white"
+                        class="menu-icon">
+                        <rect x="3" y="6" width="18" height="2" rx="1" />
+                        <rect x="3" y="11" width="18" height="2" rx="1" />
+                        <rect x="3" y="16" width="18" height="2" rx="1" />
+                    </svg>
+                </div>
+                <div class="projects__header">
+                    <h1>JON DEICHMANN</h1>
+                    <p>Front-End / React Developer</p>
+                </div>
+            </header>
+
+            <main>
+                <div class="projects__wrapper">
+                    <h3 class="projects__page-title">PROJECTS</h3>
+                    <!-- Hell's Heroes -->
+                    <div class="projects__project">
+                        <img class="projects__project-thumbnail" src="./src/assets/images/hh-icon-logo.png" />
+                        <div class="projects__project-details">
+                            <h3>Hell's Heroes Festival</h3>
+                            <div class="projects__tags-wrapper">
+                                <span class="projects__skill-tag">React (Web/Native)</span>
+                                <span class="projects__skill-tag">TypeScript</span>
+                                <span class="projects__skill-tag">Firebase</span>
+                                <span class="projects__skill-tag">NextJS</span>
+                                <span class="projects__skill-tag">iOS</span>
+                            </div>
+
+                            <div class="projects__description">
+                                <p>
+                                    A music festival app that allows users to create and manage their schedule, stay up
+                                    to date with festival news, find top local spots to explore, and unlock exclusive
+                                    deals paired with a React web app that allows festival managers to manage the
+                                    newsfeed remotely.
+                                </p>
+                                <p>
+                                    <strong><a href="https://shorturl.at/44y8E">APP STORE LINK</a></strong>
+                                    <br /><strong
+                                        ><a href="https://github.com/jcad57/hells-heroes-dashboard"
+                                            >DASHBOARD REPO LINK</a
+                                        ></strong
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Weekly Bytes -->
+                    <div class="projects__project">
+                        <img class="projects__project-thumbnail" src="./src/assets/images/weekly-bytes-logo.png" />
+                        <div class="projects__project-details">
+                            <h3>Weekly Bytes</h3>
+                            <div class="projects__tags-wrapper">
+                                <span class="projects__skill-tag">React</span>
+                                <span class="projects__skill-tag">React Router</span>
+                                <span class="projects__skill-tag">Auth</span>
+                                <span class="projects__skill-tag">JavaScript</span>
+                                <span class="projects__skill-tag">Firebase</span>
+                                <span class="projects__skill-tag">Tailwind</span>
+                            </div>
+                            <div class="projects__description">
+                                <p>
+                                    An intuitive web application designed to help managers effortlessly create and share
+                                    weekly meal plans while prioritizing staff safety and dietary needs. Weekly Bytes
+                                    generates a randomized menu—ensuring variety and eliminating meal repetition within
+                                    the same week.
+                                </p>
+                                <p>
+                                    <strong><a href="https://member-me-game.vercel.app/">LIVE LINK</a></strong>
+                                    <br /><strong
+                                        ><a href="https://github.com/jcad57/member-me-game">GITHUB REPO</a></strong
+                                    >
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ‘member Me? -->
+                    <div class="projects__project">
+                        <img class="projects__project-thumbnail" src="./src/assets/images/member-me-logo.jpg" />
+                        <div class="projects__project-details">
+                            <h3>‘member Me?</h3>
+                            <div class="projects__tags-wrapper">
+                                <span class="projects__skill-tag">React</span>
+                                <span class="projects__skill-tag">React Router</span>
+                                <span class="projects__skill-tag">JavaScript</span>
+                                <span class="projects__skill-tag">Firebase</span>
+                                <span class="projects__skill-tag">NES.CSS</span>
+                            </div>
+
+                            <div class="projects__description">
+                                <p>
+                                    My take on the classic game 'Concentration' where you flip two cards and try to find
+                                    a match. Find all the matching pairs and you win. I gave it a retro feel and
+                                    incorporated a high-score leaderboard!
+                                </p>
+                                <p>
+                                    <strong><a href="https://member-me-game.vercel.app/">LIVE LINK</a></strong>
+                                    <br /><strong
+                                        ><a href="https://github.com/jcad57/member-me-game">GITHUB REPO</a></strong
+                                    >
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="projects__project">
-                    <img class="projects__project-thumbnail" src="./src/assets/images/hh-icon-logo.png" />
-                    <div class="projects__project-details">
-                        <h3>Hell's Heroes Festival</h3>
-                        <span class="sub-text">React (Web/Native) - TypeScript - Firebase - iOS </span>
-                        <div class="projects__description">
-                            <p>
-                                A music festival app that allows users to create and manage their schedule, stay up to
-                                date with festival news, find top local spots to explore, and unlock exclusive deals
-                                paired with a React web application that allows festival managers to manage the newsfeed
-                                remotely.
-                            </p>
-                            <p>
-                                <strong><a href="https://shorturl.at/44y8E">APP STORE LINK</a></strong> <br /><strong
-                                    ><a href="https://github.com/jcad57/hells-heroes-dashboard"
-                                        >DASHBOARD REPO LINK</a
-                                    ></strong
-                                >
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; 2025 Jon Deichmann. All rights reserved.</p>
+        </footer>
         <script type="module" src="/src/main.ts"></script>
     </body>
 </html>
