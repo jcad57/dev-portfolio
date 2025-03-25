@@ -15,10 +15,25 @@
         #38f2ff,
         #4efff4
     );
+    --background-gradient: linear-gradient(
+        to right top,
+        #323b5a,
+        #363b57,
+        #393b54,
+        #3b3c52,
+        #3d3c4f,
+        #3c4053,
+        #3c4457,
+        #3b485a,
+        #355162,
+        #2f5a66,
+        #2f6366,
+        #376b62
+    );
 
-    --background-color: #13113d;
+    --background-color: linear-gradient(to right bottom, rgb(43, 45, 51), rgb(25, 28, 37));
     --footer-color: rgb(10, 9, 36);
-    --header-text-color: rgb(255, 154, 129);
+    --header-text-color: #ff5f6d;
     --linebreak-color: rgba(253, 131, 133, 0.5);
 
     /* Dark Theme */

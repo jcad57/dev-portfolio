@@ -8,9 +8,12 @@
 
 .projects__wrapper {
     display: flex;
+    width: 100%;
+    margin-inline: auto;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+    max-width: 45rem;
 }
 
 .projects__page-title {
@@ -71,4 +74,26 @@
     transform: translateY(-40%);
     width: 125px;
     border-radius: 50%;
+}
+
+.projects__more-projects {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.projects__more-projects a {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    border-radius: 16px;
+    color: var(--linebreak-color);
+    text-decoration: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.projects__more-projects a:hover {
+    background-color: white;
+    color: black;
 }

@@ -1,6 +1,7 @@
 // DOM Elements
 const root = document.querySelector(":root") as HTMLElement;
 const app = document.getElementById("app");
+const footer = document.querySelector(".footer__wrapper");
 
 const colorfulBtn = document.getElementById("colorful-btn");
 const darkBtn = document.getElementById("dark-btn");
@@ -21,11 +22,13 @@ const professionalExperienceDescriptionIcons = document.querySelectorAll(".profe
 mobileMenuBtn?.addEventListener("click", () => {
     mobileMenu?.classList.remove("hidden");
     app?.classList.add("hidden");
+    footer?.classList.add("hidden");
 });
 
 mobileMenuCloseBtn?.addEventListener("click", () => {
     mobileMenu?.classList.add("hidden");
     app?.classList.remove("hidden");
+    footer?.classList.remove("hidden");
 });
 
 // Theme Buttons

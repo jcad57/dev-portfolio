@@ -1,4 +1,4 @@
-.about__wrapper {
+.sm-about__wrapper {
     margin-block: 1rem;
     padding-block: 1rem;
     border-top: 1px solid var(--linebreak-color);
@@ -20,4 +20,22 @@
 
 .about__text {
     margin-top: 1rem;
+}
+
+.lg-contact__wrapper {
+    padding-block: 1.5rem;
+}
+
+.lg-about__wrapper {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .sm-about__wrapper {
+        display: none;
+    }
+
+    .lg-about__wrapper {
+        display: block;
+    }
 }
