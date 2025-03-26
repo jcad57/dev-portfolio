@@ -24,7 +24,7 @@ li {
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    min-height: 100dvh;
     line-height: 1.5;
     background: linear-gradient(to right bottom, rgb(43, 45, 51), rgb(25, 28, 37));
     font-family: "Poppins", sans-serif;
