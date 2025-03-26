@@ -21,6 +21,10 @@
     user-select: none;
 }
 
+.profexp__job-title:hover {
+    cursor: pointer;
+}
+
 .profexp__job-item {
     margin-left: 0.25rem;
 }
@@ -29,7 +33,6 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
-    cursor: pointer;
 }
 
 .profexp__employer-text {

@@ -26,7 +26,7 @@ body {
     padding: 0;
     min-height: 100dvh;
     line-height: 1.5;
-    background: linear-gradient(to right bottom, rgb(43, 45, 51), rgb(25, 28, 37));
+    background: var(--background-color);
     font-family: "Poppins", sans-serif;
     color: white;
 }
@@ -95,18 +95,6 @@ section {
 
 .hidden {
     display: none;
-    /* animation: vanish 55ms; */
-}
-
-@keyframes vanish {
-    from {
-        display: block;
-        opacity: 1;
-    }
-    to {
-        display: none;
-        opacity: 0;
-    }
 }
 
 .rotate {
@@ -120,15 +108,12 @@ section {
 footer {
     text-align: center;
     padding-block: 2rem;
-    /* background-color: var(--footer-color); */
     font-size: 0.8rem;
 }
 
 .lg-screen__wrapper {
     display: flex;
     flex-direction: column;
-
-    min-height: 100vh;
 }
 
 @media (min-width: 800px) {
@@ -139,13 +124,13 @@ footer {
         grid-template-columns: 250px 1fr;
         gap: 2rem;
         padding-block: 2rem;
-        background-color: var(--container-background-color);
+        background: var(--container-background-color);
         margin-inline: min(10%, 10rem);
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
         max-width: 1200px;
     }
 
     .lg-screen__wrapper {
-        /* justify-content: space-between; */
+        min-height: 100vh;
     }
 }

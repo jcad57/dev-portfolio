@@ -1,66 +1,11 @@
 :root {
-    /* Colorful Theme */
-    --header-gradient: linear-gradient(
-        to right bottom,
-        #b534e0,
-        #a25cee,
-        #9176f5,
-        #878bf7,
-        #859df4,
-        #79acfa,
-        #73b9fd,
-        #75c6fd,
-        #5ad6ff,
-        #41e4ff,
-        #38f2ff,
-        #4efff4
-    );
-    --background-gradient: linear-gradient(
-        to right top,
-        #323b5a,
-        #363b57,
-        #393b54,
-        #3b3c52,
-        #3d3c4f,
-        #3c4053,
-        #3c4457,
-        #3b485a,
-        #355162,
-        #2f5a66,
-        #2f6366,
-        #376b62
-    );
+    --background-color: radial-gradient(ellipse at top, rgb(49, 49, 49), transparent),
+        radial-gradient(ellipse at bottom, rgb(34, 33, 33), transparent), #1a1a1a; /* Fallback solid color */
 
-    --background-color: linear-gradient(to right bottom, rgb(43, 45, 51), rgb(25, 28, 37));
-    --container-background-color: rgba(0, 0, 0, 0.5);
+    --container-background-color: radial-gradient(circle, #292929 10%, #1a1a1a 90%);
+
     --footer-color: rgb(10, 9, 36);
     --header-text-color: #ff5f6d;
     --primary-accent: #ff5f6d;
     --linebreak-color: rgba(253, 131, 133, 0.5);
 }
-/* 
-    /* Dark Theme 
-    --header-gradient-dark: linear-gradient(
-        to right,
-        #ffffc6,
-        #cff8c7,
-        #9fefd5,
-        #7be1e6,
-        #71cff1,
-        #70b5df,
-        #709cc8,
-        #7083af,
-        #576284,
-        #3d445c,
-        #252737,
-        #0b0b16
-    );
-
-    --background-color-dark: #0b0b16;
-    --footer-color-dark: rgb(3, 3, 5);
-    --header-text-color-dark: rgb(255, 255, 198);
-    --linebreak-color-dark: rgba(255, 255, 198, 0.5);
-
-    /* Other 
-    --menu-background-color: white;
-} */
