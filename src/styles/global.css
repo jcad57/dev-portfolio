@@ -135,12 +135,14 @@ footer {
     .main__wrapper {
         border-radius: 24px;
         display: grid;
-        grid-template-columns: min(250px, 256px) 1fr;
+        align-self: center;
+        grid-template-columns: 250px 1fr;
         gap: 2rem;
         padding-block: 2rem;
         background-color: rgb(22, 26, 43);
         margin-inline: min(10%, 10rem);
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
+        max-width: 1200px;
     }
 
     .lg-screen__wrapper {
