@@ -69,6 +69,9 @@
     gap: 2rem;
 }
 
+.projects__description p {
+    margin-top: 0.875rem;
+}
 .projects__project-thumbnail {
     aspect-ratio: 1/1;
     margin-inline: auto;
@@ -84,7 +87,7 @@
     margin-bottom: 2rem;
 }
 
-.projects__more-projects a {
+.more-projects__button {
     padding: 0.75rem 1.25rem;
     background-color: rgba(0, 0, 0, 0.5);
     border: 2px solid var(--primary-accent);
@@ -95,7 +98,11 @@
     cursor: pointer;
 }
 
-.projects__more-projects a:hover {
+.more-projects__button a {
+    text-decoration: none;
+}
+
+.more-projects__button:hover {
     background-color: white;
-    color: black;
+    color: var(--primary-accent);
 }
