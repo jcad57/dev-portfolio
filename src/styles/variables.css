@@ -1,8 +1,8 @@
 :root {
     --background-color: radial-gradient(ellipse at top, rgb(49, 49, 49), transparent),
-        radial-gradient(ellipse at bottom, rgb(34, 33, 33), transparent), #1a1a1a; /* Fallback solid color */
+        radial-gradient(ellipse at bottom, rgb(43, 43, 43), transparent), #1a1a1a; /* Fallback solid color */
 
-    --container-background-color: radial-gradient(circle, #292929 10%, #1a1a1a 90%);
+    --container-background-color: radial-gradient(circle, rgb(31, 31, 31) 10%, #1a1a1a 90%);
 
     --footer-color: rgb(10, 9, 36);
     --header-text-color: #ff5f6d;
