@@ -50,17 +50,17 @@
 .projects__tags-wrapper {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     gap: 0.5rem;
     margin-block: 1rem;
 }
 
 .projects__skill-tag {
-    border: 1px solid var(--linebreak-color);
+    border: 1px solid var(--primary-accent);
     border-radius: 8px;
     padding: 0.25rem 0.5rem;
     font-size: 0.75rem;
-    color: var(--linebreak-color);
+    color: var(--primary-accent);
 }
 
 .projects__description {
@@ -85,9 +85,9 @@
 .projects__more-projects a {
     padding: 0.75rem 1.25rem;
     background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid white;
+    border: 2px solid var(--primary-accent);
     border-radius: 16px;
-    color: var(--linebreak-color);
+    color: var(--primary-accent);
     text-decoration: none;
     transition: 0.1s;
     cursor: pointer;

@@ -4,6 +4,7 @@
 
 .resume__skill-title {
     font-weight: bold;
+    user-select: none;
 }
 
 .profexp__header-text {
@@ -12,6 +13,12 @@
 
 .profexp__job-title {
     text-decoration: underline white 2px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .profexp__job-item {

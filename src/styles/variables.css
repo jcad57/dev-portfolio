@@ -34,6 +34,7 @@
     --background-color: linear-gradient(to right bottom, rgb(43, 45, 51), rgb(25, 28, 37));
     --footer-color: rgb(10, 9, 36);
     --header-text-color: #ff5f6d;
+    --primary-accent: #ff5f6d;
     --linebreak-color: rgba(253, 131, 133, 0.5);
 
     /* Dark Theme */

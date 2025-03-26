@@ -1,6 +1,7 @@
 /* Mobile/Table */
 .sm-header__wrapper {
     padding-inline: min(5%, 5rem);
+    padding-top: 1rem;
 }
 .sm-header__menu-icon {
     display: flex;

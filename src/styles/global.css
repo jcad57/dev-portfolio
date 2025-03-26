@@ -43,25 +43,19 @@ label {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     text-wrap: balance;
     font-weight: 800;
+    color: var(--primary-accent);
 }
 
 h1 {
     font-size: 1.75rem;
-    color: var(--header-text-color);
-}
-
-h2 {
-    color: var(--header-text-color);
 }
 
 h3 {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--header-text-color);
 }
 
 h4 {
@@ -99,11 +93,20 @@ section {
     padding-inline: min(5%, 5rem);
 }
 
-.dark-mode {
+.hidden {
+    display: none;
+    /* animation: vanish 55ms; */
 }
 
-.hidden {
-    display: none !important;
+@keyframes vanish {
+    from {
+        display: block;
+        opacity: 1;
+    }
+    to {
+        display: none;
+        opacity: 0;
+    }
 }
 
 .rotate {
