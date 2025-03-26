@@ -65,10 +65,12 @@
 
 .projects__description {
     display: grid;
+    text-align: center;
     gap: 2rem;
 }
 
 .projects__project-thumbnail {
+    aspect-ratio: 1/1;
     margin-inline: auto;
     left: 50%;
     transform: translateY(-40%);
