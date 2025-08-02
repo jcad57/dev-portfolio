@@ -1,3 +1,8 @@
+#skills-and-technology,
+#professional-experience {
+    margin-bottom: 2rem;
+}
+
 .resume__section-header {
     margin-bottom: 0.5rem;
 }
@@ -5,6 +10,12 @@
 .resume__skill-title {
     font-weight: bold;
     user-select: none;
+}
+
+.profexp__job-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .profexp__header-text {

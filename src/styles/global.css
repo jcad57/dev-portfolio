@@ -82,7 +82,6 @@ select {
 }
 
 section {
-    margin-bottom: 2rem;
 }
 
 #app {
@@ -127,7 +126,7 @@ footer {
         background: var(--container-background-color);
         margin-inline: min(10%, 10rem);
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
-        max-width: 1200px;
+        max-width: 1125px;
     }
 
     .lg-screen__wrapper {
