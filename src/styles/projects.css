@@ -19,6 +19,9 @@
 .projects__page-title {
     margin-block: 2rem;
     text-align: center;
+    /* Full-width row inside flex wrapper so title sits above project cards, not beside them */
+    flex-basis: 100%;
+    width: 100%;
 }
 
 .projects__project {
@@ -85,6 +88,8 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+    flex-basis: 100%;
+    width: 100%;
 }
 
 .more-projects__button {
