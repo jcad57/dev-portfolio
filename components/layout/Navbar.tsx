@@ -10,7 +10,7 @@ export function Navbar() {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-4 md:grid md:grid-cols-[1fr_auto_1fr] md:items-center md:gap-6">
         <div className="flex items-center gap-4">
           <img
-            src="../public/avatar-scaled-1-1.jpg"
+            src="avatar-scaled-1-1.jpg"
             alt="Hero"
             className="w-10 h-10 rounded-full block md:hidden"
           />
