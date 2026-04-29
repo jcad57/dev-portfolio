@@ -21,7 +21,7 @@ export function HeroSection() {
       </div>
       <div className="rounded-full overflow-hidden w-48 h-48 justify-self-end hidden md:block">
         <img
-          src="../public/avatar-scaled-1-1.jpg"
+          src="avatar-scaled-1-1.jpg"
           alt="Hero"
           className="w-48 h-48 object-cover "
         />
